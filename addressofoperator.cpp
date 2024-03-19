@@ -28,7 +28,8 @@ int main()
     std::cout << "c: " << (void*)&c << std::endl;
     
     std::cout << "foo(): " << (void*)&foo << std::endl;
-    
+    std::cout << "main(): " << (void*)&main << std::endl;
+  
     return 0;
 }
 
